@@ -11,7 +11,8 @@
     "--socket=wayland",
     "--socket=x11",
     "--device=dri",
-    "--share=network"
+    "--share=network",
+    "--persist=.bzf"
   ],
   "modules": [
     "shared-modules/glu/glu-9.0.0.json",
