@@ -10,7 +10,7 @@
     "--socket=pulseaudio",
     "--socket=wayland",
     "--socket=x11",
-    "--device=dri",
+    "--device=all",
     "--share=network",
     "--persist=.bzf"
   ],
