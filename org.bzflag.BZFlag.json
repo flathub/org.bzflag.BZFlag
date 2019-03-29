@@ -42,6 +42,7 @@
       ],
       "post-install": [
         "install -Dm644 data/bzflag.desktop /app/share/applications/bzflag.desktop",
+        "desktop-file-edit --set-key=Exec --set-value=bzflag /app/share/applications/bzflag.desktop",
         "install -Dm644 data/red_icon.png /app/share/icons/hicolor/64x64/apps/bzflag.png",
         "install -Dm644 org.bzflag.BZFlag.appdata.xml /app/share/appdata/org.bzflag.BZFlag.appdata.xml"
       ]
