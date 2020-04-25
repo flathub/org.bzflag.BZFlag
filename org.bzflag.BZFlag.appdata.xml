@@ -26,6 +26,11 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="2.4.20" date="2020-04-24">
+	  <description>
+		<p>This release added several new functions/events to the bzfs API and reorganized the client menus to improve usability.</p>
+	  </description>
+	</release>
     <release version="2.4.18" date="2018-10-18">
       <description>
         <p>This release fixes audio on Windows.</p>
