@@ -22,8 +22,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://c-ares.haxx.se/download/c-ares-1.14.0.tar.gz",
-          "sha256": "45d3c1fd29263ceec2afc8ff9cd06d5f8f889636eb4e80ce3cc7f0eaf7aadc6e"
+          "url": "https://c-ares.haxx.se/download/c-ares-1.16.0.tar.gz",
+          "sha256": "de058ad7c128156e2db6dc98b8a359924d6f210a1b99dd36ba15c8f839a83a89"
         }
       ]
     },
@@ -32,8 +32,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://download.bzflag.org/bzflag/source/2.4.18/bzflag-2.4.18.tar.gz",
-          "sha256": "4fea867d8394f99a6275ac9562108bc83da6c0a001104d4734068dd1ad84804d"
+          "url": "https://download.bzflag.org/bzflag/source/2.4.20/bzflag-2.4.20.tar.gz",
+          "sha256": "6934b57dcb51854c1c577c1393a57ce58eefa2948238fe58e016f3dd9de35592"
         },
         {
           "type": "file",
