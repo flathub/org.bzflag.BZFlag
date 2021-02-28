@@ -26,6 +26,11 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="2.4.22" date="2021-02-27">
+      <description>
+        <p>This release fixes several issues with SDL 2 window handling. There were also some other minor fixes.</p>
+      </description>
+    </release>
     <release version="2.4.20" date="2020-04-24">
 	  <description>
 		<p>This release added several new functions/events to the bzfs API and reorganized the client menus to improve usability.  It also adjusts some default options, such as radar size, to improve the new user experience.</p>
