@@ -1,7 +1,7 @@
 {
   "id": "org.bzflag.BZFlag",
   "runtime": "org.freedesktop.Platform",
-  "runtime-version": "20.08",
+  "runtime-version": "21.08",
   "sdk": "org.freedesktop.Sdk",
   "command": "bzflag",
   "rename-icon": "bzflag",
@@ -22,8 +22,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://c-ares.haxx.se/download/c-ares-1.17.1.tar.gz",
-          "sha256": "d73dd0f6de824afd407ce10750ea081af47eba52b8a6cb307d220131ad93fc40"
+          "url": "https://c-ares.org/download/c-ares-1.18.1.tar.gz",
+          "sha256": "1a7d52a8a84a9fbffb1be9133c0f6e17217d91ea5a6fa61f6b4729cda78ebbcf"
         }
       ]
     },
@@ -32,8 +32,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://download.bzflag.org/bzflag/source/2.4.22/bzflag-2.4.22.tar.gz",
-          "sha256": "b96ed2a12cc309eecd3856bdd593117546503e26960450e4e6e43185e52da2a4"
+          "url": "https://download.bzflag.org/bzflag/source/2.4.24/bzflag-2.4.24.tar.gz",
+          "sha256": "53ae480221845a7ca4cf5489c7cc409073a4ba4ab8a7c070ddea7b83da61ae82"
         },
         {
           "type": "file",
