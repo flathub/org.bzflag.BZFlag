@@ -26,6 +26,11 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="2.4.24" date="2022-03-08">
+      <description>
+        <p>This release works around an event polling regression in SDL 2.0.20 that caused our game to appear unresponsive. There's a few other small changes as well.</p>
+      </description>
+    </release>
     <release version="2.4.22" date="2021-02-27">
       <description>
         <p>This release fixes several issues with SDL 2 window handling. There were also some other minor fixes.</p>
