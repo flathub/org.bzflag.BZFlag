@@ -26,6 +26,17 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="2.4.26" date="2022-11-20">
+      <description>
+        <p>This release mainly fixes a few client bugs:</p>
+        <ul>
+          <li>Audio pops should be fixed.</li>
+          <li>Positional audio in observer mode now uses the camera direction.</li>
+          <li>Fixed a regression that caused some textures to render skewed.</li>
+          <li>Fixed the Machine Gun firing continuously when the mouse wheel is used to fire.</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.4.24" date="2022-03-08">
       <description>
         <p>This release works around an event polling regression in SDL 2.0.20 that caused our game to appear unresponsive. There's a few other small changes as well.</p>
