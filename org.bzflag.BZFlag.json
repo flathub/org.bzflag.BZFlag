@@ -32,8 +32,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://download.bzflag.org/bzflag/source/2.4.24/bzflag-2.4.24.tar.gz",
-          "sha256": "53ae480221845a7ca4cf5489c7cc409073a4ba4ab8a7c070ddea7b83da61ae82"
+          "url": "https://download.bzflag.org/bzflag/source/2.4.26/bzflag-2.4.26.tar.gz",
+          "sha256": "e82ed881ab37b22763ba666f599b95b3fb2cb30f4aeb9104ac9b56f1671618cb"
         },
         {
           "type": "file",
