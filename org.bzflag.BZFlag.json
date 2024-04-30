@@ -1,7 +1,7 @@
 {
   "id": "org.bzflag.BZFlag",
   "runtime": "org.freedesktop.Platform",
-  "runtime-version": "21.08",
+  "runtime-version": "23.08",
   "sdk": "org.freedesktop.Sdk",
   "command": "bzflag",
   "rename-icon": "bzflag",
@@ -9,9 +9,10 @@
   "finish-args": [
     "--socket=pulseaudio",
     "--socket=wayland",
-    "--socket=x11",
+    "--socket=fallback-x11",
     "--device=all",
     "--share=network",
+    "--share=ipc",
     "--persist=.bzf"
   ],
   "modules": [
@@ -22,8 +23,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://c-ares.org/download/c-ares-1.18.1.tar.gz",
-          "sha256": "1a7d52a8a84a9fbffb1be9133c0f6e17217d91ea5a6fa61f6b4729cda78ebbcf"
+          "url": "https://c-ares.org/download/c-ares-1.28.1.tar.gz",
+          "sha256": "675a69fc54ddbf42e6830bc671eeb6cd89eeca43828eb413243fd2c0a760809d"
         }
       ]
     },

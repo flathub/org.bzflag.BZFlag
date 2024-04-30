@@ -5,6 +5,9 @@
   <project_license>LGPL-2.1 or MPL-2.0</project_license>
   <metadata_license>CC0-1.0</metadata_license>
   <name>BZFlag</name>
+  <developer id="org.bzflag">
+    <name>BZFlag Developers</name>
+  </developer>
   <summary>A 3D first person tank battle game</summary>
   <description>
     <p>
@@ -16,13 +19,16 @@
   <url type="help">https://www.bzflag.org/help</url>
   <screenshots>
     <screenshot type="default">
-      <image>https://www.bzflag.org/assets/images/media/screenshots/dantes_inferno_01.jpg</image>
+      <image>https://www.bzflag.org/assets/images/media/screenshots/churchyard_03.jpg</image>
+      <caption>A map called Churchyard by Louman</caption>
     </screenshot>
     <screenshot>
-      <image>https://www.bzflag.org/assets/images/media/screenshots/home_sweet_home_02.jpg</image>
+      <image>https://www.bzflag.org/assets/images/media/screenshots/japanese_castles_01.jpg</image>
+      <caption>A map called Japanese Castles by krungthai</caption>
     </screenshot>
     <screenshot>
-      <image>https://www.bzflag.org/assets/images/media/screenshots/aa_bridge_crossing_01.jpg</image>
+      <image>https://www.bzflag.org/assets/images/media/screenshots/missile_wars_2.3_01.jpg</image>
+      <caption>A two team capture-the-flag map called Missile Wars 2.3 by Ducatiwannabe</caption>
     </screenshot>
   </screenshots>
   <releases>
