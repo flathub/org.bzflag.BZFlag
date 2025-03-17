@@ -32,6 +32,23 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="2.4.30" date="2025-03-16">
+      <description>
+        <p>This version just reverts a change to 2.4.28 that caused the menu to sometimes look strange in at least the medium quality level.</p>
+      </description>
+    </release>
+    <release version="2.4.28" date="2025-02-25">
+      <description>
+        <p>This release includes various improvements to the game client and a container for game servers::</p>
+        <ul>
+          <li>Improved game controller support, including a range limit, deadzones, ramp types, and corner stretching for controllers that don't map to a square</li>
+          <li>Better capture support in software such as OBS</li>
+          <li>Ability to paste text from the clipboard in the game client</li>
+          <li>CGNAT support when used with both an updated client and server</li>
+          <li>Dockerfile to build a container for running game servers, with support for custom plugins</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.4.26" date="2022-11-20">
       <description>
         <p>This release mainly fixes a few client bugs:</p>
