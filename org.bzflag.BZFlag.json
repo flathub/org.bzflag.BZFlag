@@ -1,7 +1,7 @@
 {
   "id": "org.bzflag.BZFlag",
   "runtime": "org.freedesktop.Platform",
-  "runtime-version": "23.08",
+  "runtime-version": "25.08",
   "sdk": "org.freedesktop.Sdk",
   "command": "bzflag",
   "rename-icon": "bzflag",
@@ -14,6 +14,13 @@
     "--share=network",
     "--share=ipc",
     "--persist=.bzf"
+  ],
+  "cleanup": [
+    "/include",
+    "/lib/pkgconfig",
+    "/share/man",
+    "*.la",
+    "*.a"
   ],
   "modules": [
     "shared-modules/glu/glu-9.json",
@@ -44,9 +51,9 @@
       "post-install": [
         "install -Dm644 data/bzflag.desktop /app/share/applications/bzflag.desktop",
         "desktop-file-edit --set-key=Exec --set-value=bzflag /app/share/applications/bzflag.desktop",
-		"desktop-file-edit --set-key=Icon --set-value=bzflag /app/share/applications/bzflag.desktop",
+        "desktop-file-edit --set-key=Icon --set-value=bzflag /app/share/applications/bzflag.desktop",
         "install -Dm644 misc/art/bzicon-red.svg /app/share/icons/hicolor/scalable/apps/bzflag.svg",
-        "install -Dm644 org.bzflag.BZFlag.appdata.xml /app/share/appdata/org.bzflag.BZFlag.appdata.xml"
+        "install -Dm644 org.bzflag.BZFlag.appdata.xml /app/share/metainfo/org.bzflag.BZFlag.appdata.xml"
       ]
     }
   ]

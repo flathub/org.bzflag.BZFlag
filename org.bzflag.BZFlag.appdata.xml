@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component type="desktop">
+<component type="desktop-application">
   <id>org.bzflag.BZFlag</id>
   <launchable type="desktop-id">org.bzflag.BZFlag.desktop</launchable>
   <project_license>LGPL-2.1 or MPL-2.0</project_license>
@@ -11,12 +11,19 @@
   <summary>A 3D first person tank battle game</summary>
   <description>
     <p>
-    BZFlag is a 3D networked multi-player multi-platform tank battle game. It runs on Windows, macOS, Linux, BSD, and other platforms. It was one of the most popular games ever on Silicon Graphics machines and continues to be developed and improved to this day.
+    BZFlag is a 3D networked multi-player multi-platform tank battle game.
+    It runs on Windows, macOS, Linux, BSD, and other platforms. It was one of
+    the most popular games ever on Silicon Graphics machines and continues
+    to be developed and improved to this day.
     </p>
   </description>
   <url type="homepage">https://www.bzflag.org</url>
   <url type="bugtracker">https://github.com/BZFlag-Dev/bzflag/issues</url>
+  <url type="vcs-browser">https://github.com/BZFlag-Dev/bzflag</url>
   <url type="help">https://www.bzflag.org/help</url>
+  <content_rating type="oars-1.0">
+    <content_attribute id="social-chat">intense</content_attribute>
+  </content_rating>
   <screenshots>
     <screenshot type="default">
       <image>https://www.bzflag.org/assets/images/media/screenshots/churchyard_03.jpg</image>
@@ -41,7 +48,8 @@
       <description>
         <p>This release includes various improvements to the game client and a container for game servers::</p>
         <ul>
-          <li>Improved game controller support, including a range limit, deadzones, ramp types, and corner stretching for controllers that don't map to a square</li>
+          <li>Improved game controller support, including a range limit, deadzones, ramp types,
+            and corner stretching for controllers that don't map to a square</li>
           <li>Better capture support in software such as OBS</li>
           <li>Ability to paste text from the clipboard in the game client</li>
           <li>CGNAT support when used with both an updated client and server</li>
@@ -62,7 +70,8 @@
     </release>
     <release version="2.4.24" date="2022-03-08">
       <description>
-        <p>This release works around an event polling regression in SDL 2.0.20 that caused our game to appear unresponsive. There's a few other small changes as well.</p>
+        <p>This release works around an event polling regression in SDL 2.0.20 that caused our game to appear unresponsive.
+          There's a few other small changes as well.</p>
       </description>
     </release>
     <release version="2.4.22" date="2021-02-27">
@@ -72,7 +81,8 @@
     </release>
     <release version="2.4.20" date="2020-04-24">
 	  <description>
-		<p>This release added several new functions/events to the bzfs API and reorganized the client menus to improve usability.  It also adjusts some default options, such as radar size, to improve the new user experience.</p>
+		<p>This release added several new functions/events to the bzfs API and reorganized the client menus to improve usability.
+    It also adjusts some default options, such as radar size, to improve the new user experience.</p>
 	  </description>
 	</release>
     <release version="2.4.18" date="2018-10-18">
@@ -82,7 +92,8 @@
     </release>
     <release version="2.4.16" date="2018-09-23">
       <description>
-        <p>This release primarily fixes a bug introduced in 2.4.14 that corrupted replay file headers. This release reverts that change, and can also read the corrupted header for replays made with the bad code.</p>
+        <p>This release primarily fixes a bug introduced in 2.4.14 that corrupted replay file headers.
+          This release reverts that change, and can also read the corrupted header for replays made with the bad code.</p>
       </description>
     </release>
     <release version="2.4.14" date="2018-05-03">
@@ -105,7 +116,9 @@
         <li>Multisampling (anti-aliasing) now works on all platforms with SDL</li>
         <li>The permission for running /poll set is no longer assigned by default</li>
         <li>The macOS build uses a newly released version of SDL that fixes an issue with retina macs when running in a scaled resolution</li>
-        <li>It is possible to silence all unregistered players in your client by silencing - (the minus sign or hyphen), similar to how silencing * (asterisk) silences all players. Additionally, the /silence and /unsilence commands both work correctly now and support both special cases.</li>
+        <li>It is possible to silence all unregistered players in your client by silencing - (the minus sign or hyphen),
+          similar to how silencing * (asterisk) silences all players.
+          Additionally, the /silence and /unsilence commands both work correctly now and support both special cases.</li>
         </ul>
       </description>
     </release>
@@ -122,8 +135,5 @@
       </description>
     </release>
   </releases>
-  <content_rating type="oars-1.0">
-    <content_attribute id="social-chat">intense</content_attribute>
-  </content_rating>
 </component>
 
