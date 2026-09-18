@@ -1,7 +1,7 @@
 {
   "id": "org.bzflag.BZFlag",
   "runtime": "org.freedesktop.Platform",
-  "runtime-version": "23.08",
+  "runtime-version": "26.08",
   "sdk": "org.freedesktop.Sdk",
   "command": "bzflag",
   "rename-icon": "bzflag",
@@ -13,18 +13,25 @@
     "--device=all",
     "--share=network",
     "--share=ipc",
-    "--persist=.bzf"
+    "--persist=.bzf",
+    "--env=SDL_VIDEODRIVER=wayland,x11"
   ],
   "modules": [
     "shared-modules/glu/glu-9.json",
     "shared-modules/glew/glew.json",
     {
       "name": "c-ares",
+      "buildsystem": "cmake",
       "sources": [
         {
-          "type": "archive",
-          "url": "https://github.com/c-ares/c-ares/releases/download/v1.34.4/c-ares-1.34.4.tar.gz",
-          "sha256": "fa38dbed659ee4cc5a32df5e27deda575fa6852c79a72ba1af85de35a6ae222f"
+          "type": "git",
+          "url": "https://github.com/c-ares/c-ares",
+          "commit": "c7a3138dcfe3bb0eaaf10c0c24c36dc66dc790ab",
+          "tag": "v1.34.8",
+          "x-checker-data": {
+            "type": "git",
+            "tag-pattern": "^v([\\d.]+)$"
+          }
         }
       ]
     },
@@ -32,9 +39,18 @@
       "name": "bzflag",
       "sources": [
         {
-          "type": "archive",
-          "url": "https://download.bzflag.org/bzflag/source/2.4.30/bzflag-2.4.30.tar.gz",
-          "sha256": "30bf76e8c154beac82582ed4ce29ce14dc951231c69dab297c6677add8f7ed09"
+          "type": "git",
+          "url": "https://github.com/BZFlag-Dev/bzflag",
+          "commit": "b57eef3d19386497cd654ecd13bb2fe7a7a0b0de",
+          "tag": "v2.4.30",
+          "x-checker-data": {
+            "type": "git",
+            "tag-pattern": "^v([\\d.]+)$"
+          }
+        },
+        {
+          "type": "patch",
+          "path": "patches/70f68508dd188ee8670d3a29b38a3cae13ada2db.patch"
         },
         {
           "type": "file",
