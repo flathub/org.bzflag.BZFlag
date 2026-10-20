@@ -26,8 +26,8 @@
         {
           "type": "git",
           "url": "https://github.com/c-ares/c-ares",
-          "commit": "c7a3138dcfe3bb0eaaf10c0c24c36dc66dc790ab",
-          "tag": "v1.34.8",
+          "commit": "bc91829cce983a35ec01f5dbc05465858a3df469",
+          "tag": "v1.34.9",
           "x-checker-data": {
             "type": "git",
             "tag-pattern": "^v([\\d.]+)$"
@@ -60,7 +60,7 @@
       "post-install": [
         "install -Dm644 data/bzflag.desktop /app/share/applications/bzflag.desktop",
         "desktop-file-edit --set-key=Exec --set-value=bzflag /app/share/applications/bzflag.desktop",
-		"desktop-file-edit --set-key=Icon --set-value=bzflag /app/share/applications/bzflag.desktop",
+        "desktop-file-edit --set-key=Icon --set-value=bzflag /app/share/applications/bzflag.desktop",
         "install -Dm644 misc/art/bzicon-red.svg /app/share/icons/hicolor/scalable/apps/bzflag.svg",
         "install -Dm644 org.bzflag.BZFlag.appdata.xml /app/share/appdata/org.bzflag.BZFlag.appdata.xml"
       ]
