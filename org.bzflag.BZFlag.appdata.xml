@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component type="desktop">
+<component type="desktop-application">
   <id>org.bzflag.BZFlag</id>
   <launchable type="desktop-id">org.bzflag.BZFlag.desktop</launchable>
   <project_license>LGPL-2.1 or MPL-2.0</project_license>
@@ -16,6 +16,7 @@
   </description>
   <url type="homepage">https://www.bzflag.org</url>
   <url type="bugtracker">https://github.com/BZFlag-Dev/bzflag/issues</url>
+  <url type="vcs-browser">https://github.com/BZFlag-Dev/bzflag</url>
   <url type="help">https://www.bzflag.org/help</url>
   <screenshots>
     <screenshot type="default">
