@@ -49,10 +49,6 @@
           }
         },
         {
-          "type": "patch",
-          "path": "patches/70f68508dd188ee8670d3a29b38a3cae13ada2db.patch"
-        },
-        {
           "type": "file",
           "path": "org.bzflag.BZFlag.appdata.xml"
         }
