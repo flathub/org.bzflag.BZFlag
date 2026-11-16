@@ -32,6 +32,21 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="2.4.32" date="2026-11-15">
+      <description>
+        <p>This release includes several security fixes along with some additional improvements:</p>
+        <ul>
+          <li>A rendering fix for drawInfo/LOD objects</li>
+          <li>Improved joystick axis scaling</li>
+          <li>Fixed the joystick rumble setting</li>
+          <li>Improvements to Wayland support on Linux</li>
+          <li>Custom flags work correctly when added via zoneflag in a zone</li>
+          <li>Flag types no longer disappear when used in world weapons</li>
+          <li>Added support for per-side ricochet on pyramids</li>
+          <li>Client no longer hangs when resized to be extremely narrow</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.4.30" date="2025-03-16">
       <description>
         <p>This version just reverts a change to 2.4.28 that caused the menu to sometimes look strange in at least the medium quality level.</p>
@@ -39,7 +54,7 @@
     </release>
     <release version="2.4.28" date="2025-02-25">
       <description>
-        <p>This release includes various improvements to the game client and a container for game servers::</p>
+        <p>This release includes various improvements to the game client and a container for game servers:</p>
         <ul>
           <li>Improved game controller support, including a range limit, deadzones, ramp types, and corner stretching for controllers that don't map to a square</li>
           <li>Better capture support in software such as OBS</li>
