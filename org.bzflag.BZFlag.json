@@ -26,8 +26,8 @@
         {
           "type": "git",
           "url": "https://github.com/c-ares/c-ares",
-          "commit": "c7a3138dcfe3bb0eaaf10c0c24c36dc66dc790ab",
-          "tag": "v1.34.8",
+          "commit": "bc91829cce983a35ec01f5dbc05465858a3df469",
+          "tag": "v1.34.9",
           "x-checker-data": {
             "type": "git",
             "tag-pattern": "^v([\\d.]+)$"
@@ -41,8 +41,8 @@
         {
           "type": "git",
           "url": "https://github.com/BZFlag-Dev/bzflag",
-          "commit": "b57eef3d19386497cd654ecd13bb2fe7a7a0b0de",
-          "tag": "v2.4.30",
+          "commit": "f11f05485d7406c78159aac00ace3c58b4b17ec2",
+          "tag": "v2.4.32",
           "x-checker-data": {
             "type": "git",
             "tag-pattern": "^v([\\d.]+)$"
